@@ -1,0 +1,6 @@
+Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+bedrock_knowledge_base_arn = "arn:aws:bedrock:us-west-2:612473262597:knowledge-base/GQROPRCAZH"
+bedrock_knowledge_base_id = "GQROPRCAZH"

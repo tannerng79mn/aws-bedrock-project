@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 module "bedrock_kb" {
-  source = "../modules/bedrock_kb"
+  source = "../modules/bedrock_kb" 
 
   knowledge_base_name        = "my-bedrock-kb"
   knowledge_base_description = "Knowledge base connected to Aurora Serverless database"
@@ -17,7 +17,7 @@ module "bedrock_kb" {
   aurora_text_field        = "chunks"
   aurora_verctor_field     = "embedding"     # MUST KEEP MISSPELLED NAME
   aurora_username         = "admin"
-  aurora_secret_arn       = "arn:aws:secretsmanager:us-west-2:612473262597:secret:my-aurora-serverless-FI7wO1"
+  aurora_secret_arn       = "arn:aws:secretsmanager:us-west-2:612473262597:secret:my-aurora-serverless-Am8Gb3"
 
   s3_bucket_arn = "arn:aws:s3:::bedrock-kb-612473262597"
 }

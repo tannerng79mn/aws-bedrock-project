@@ -1,0 +1,17 @@
+aurora_arn = "arn:aws:rds:us-west-2:612473262597:cluster:my-aurora-serverless"
+aurora_endpoint = "my-aurora-serverless.cluster-cx2fpcp3krne.us-west-2.rds.amazonaws.com"
+db_endpoint = "my-aurora-serverless.cluster-cx2fpcp3krne.us-west-2.rds.amazonaws.com"
+db_reader_endpoint = "my-aurora-serverless.cluster-ro-cx2fpcp3krne.us-west-2.rds.amazonaws.com"
+private_subnet_ids = [
+  "subnet-0bbf6f38b27b12ce9",
+  "subnet-0e9619a77d9e97c0e",
+  "subnet-0f63354493d0f3152",
+]
+public_subnet_ids = [
+  "subnet-0f6c708ebd381c489",
+  "subnet-09d37259984e8ad03",
+  "subnet-0e688faf7511d7d88",
+]
+rds_secret_arn = "arn:aws:secretsmanager:us-west-2:612473262597:secret:my-aurora-serverless-Am8Gb3"
+s3_bucket_name = "arn:aws:s3:::bedrock-kb-612473262597"
+vpc_id = "vpc-02d26617b66223195"
